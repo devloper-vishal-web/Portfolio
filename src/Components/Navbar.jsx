@@ -1,12 +1,16 @@
 import React, { useState } from "react";
+import logoImg from "..//assets/logo.jpg"
 import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
+
 const Navbar = () => {
   const [menu, openMenu] = useState(false);
   const [showMenu, setShowmenu] = useState(true);
   return (
     <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
-      <span className="text-xl font-bold tracking-wide">Portfolio</span>
-
+      <div className="flex gap-2 items-center">
+        <img className="rounded-full w-14" src={logoImg} alt="" />
+      <span className="text-xl font-bold tracking-wide">DeveloperVishal</span>
+      </div>
       <ul
         className={`${
           menu ? "block" : "hidden"
