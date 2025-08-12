@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="About"
-      className="text-white flex overflow-hidden items-center bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
+      className="text-white flex overflow-hidden items-center bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-4 md:p-12"
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Image Section */}
@@ -18,7 +18,7 @@ const About = () => {
 
         {/* Text Section */}
         <div className="text-left space-y-5">
-          <h2 className="text-3xl md:text-4xl font-bold">About</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">About Me</h2>
           <p>
             A passionate and self-motivated web developer with a growing skill set in building responsive,
             accessible, and modern web applications. I enjoy turning ideas into real, interactive websites
